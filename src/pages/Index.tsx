@@ -12,7 +12,19 @@ const Index = () => {
   const [paymentAmount, setPaymentAmount] = useState('');
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-gray-50 to-blue-50" style={{fontFamily: 'Open Sans, sans-serif'}}>
+    <div className="min-h-screen relative" style={{fontFamily: 'Open Sans, sans-serif'}}>
+      {/* Background with hamster */}
+      <div 
+        className="fixed inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 opacity-90"
+        style={{
+          backgroundImage: `url('https://cdn.poehali.dev/files/364c86b8-9888-4b04-8d3a-09557278f7cc.jpg')`,
+          backgroundSize: '400px 400px',
+          backgroundRepeat: 'repeat',
+          backgroundPosition: 'center',
+          backgroundBlendMode: 'soft-light'
+        }}
+      ></div>
+      <div className="relative z-10">
       {/* Header */}
       <header className="bg-white/80 backdrop-blur-lg border-b border-gray-200/50 sticky top-0 z-50">
         <nav className="container mx-auto px-6 py-4">
@@ -475,6 +487,7 @@ const Index = () => {
           </div>
         </div>
       </footer>
+      </div>
     </div>
   );
 };
