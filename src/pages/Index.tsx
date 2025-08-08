@@ -253,7 +253,7 @@ const Index = () => {
       {/* Cards Section */}
       <section id="cards" className="container mx-auto px-6 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4" style={{fontFamily: 'Montserrat, sans-serif'}}>Банковские карты</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4" style={{fontFamily: 'Montserrat, sans-serif'}}>Цифровые карты</h2>
           <p className="text-xl text-gray-600">Выберите карту под ваш образ жизни</p>
         </div>
         
