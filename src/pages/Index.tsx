@@ -21,7 +21,7 @@ const Index = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-banking-gold to-banking-navy rounded-lg flex items-center justify-center">
                 <Icon name="Banknote" className="w-6 h-6 text-white" />
               </div>
-              <h1 className="text-2xl font-bold text-gray-800" style={{fontFamily: 'Montserrat, sans-serif'}}>ЗолотоБанк</h1>
+              <h1 className="text-2xl font-bold text-gray-800" style={{fontFamily: 'Montserrat, sans-serif'}}>Хбанк</h1>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#" className="text-gray-700 hover:text-primary transition-colors">Главная</a>
