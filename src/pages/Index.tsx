@@ -18,8 +18,12 @@ const Index = () => {
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-r from-banking-gold to-banking-navy rounded-lg flex items-center justify-center">
-                <Icon name="Banknote" className="w-6 h-6 text-white" />
+              <div className="w-10 h-10 rounded-lg overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/364c86b8-9888-4b04-8d3a-09557278f7cc.jpg" 
+                  alt="ХомякБанк логотип" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h1 className="text-2xl font-bold text-gray-800" style={{fontFamily: 'Montserrat, sans-serif'}}>Хбанк</h1>
             </div>
