@@ -15,13 +15,17 @@ const Index = () => {
     <div className="min-h-screen relative" style={{fontFamily: 'Open Sans, sans-serif'}}>
       {/* Background with hamster */}
       <div 
-        className="fixed inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 opacity-90"
+        className="fixed inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50"
         style={{
-          backgroundImage: `url('https://cdn.poehali.dev/files/364c86b8-9888-4b04-8d3a-09557278f7cc.jpg')`,
-          backgroundSize: '40px 40px',
-          backgroundRepeat: 'space',
-          backgroundPosition: '20px 20px',
-          backgroundBlendMode: 'soft-light'
+          backgroundImage: `
+            radial-gradient(circle at 50% 50%, rgba(255,255,255,0.3) 0%, transparent 70%),
+            url('https://cdn.poehali.dev/files/364c86b8-9888-4b04-8d3a-09557278f7cc.jpg')
+          `,
+          backgroundSize: '120px 120px, 50px 50px',
+          backgroundRepeat: 'repeat, repeat',
+          backgroundPosition: '0 0, 60px 60px',
+          backgroundBlendMode: 'normal, soft-light',
+          opacity: 0.15
         }}
       ></div>
       <div className="relative z-10">
