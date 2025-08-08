@@ -18,7 +18,7 @@ const Index = () => {
         className="fixed inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 opacity-90"
         style={{
           backgroundImage: `url('https://cdn.poehali.dev/files/364c86b8-9888-4b04-8d3a-09557278f7cc.jpg')`,
-          backgroundSize: '80px 80px',
+          backgroundSize: '40px 40px',
           backgroundRepeat: 'space',
           backgroundPosition: '20px 20px',
           backgroundBlendMode: 'soft-light'
