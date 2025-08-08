@@ -43,10 +43,7 @@ const Index = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-800 leading-tight" style={{fontFamily: 'Montserrat, sans-serif'}}>
-                Банк для
-                <span className="bg-gradient-to-r from-banking-gold to-banking-navy bg-clip-text text-transparent"> современной жизни</span>
-              </h1>
+              <h1 className="text-5xl lg:text-6xl font-bold text-gray-800 leading-tight" style={{fontFamily: 'Montserrat, sans-serif'}}>Хбанк</h1>
               <p className="text-xl text-gray-600 max-w-lg">
                 Управляйте финансами легко и безопасно. Переводы, платежи, депозиты — всё в одном приложении.
               </p>
