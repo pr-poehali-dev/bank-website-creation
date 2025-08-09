@@ -413,7 +413,7 @@ const Index = () => {
             <div className="w-20 h-20 bg-gradient-to-r from-banking-gold to-banking-navy rounded-full mx-auto mb-6 flex items-center justify-center">
               <Icon name="Users" className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-4" style={{fontFamily: 'Montserrat, sans-serif'}}>2M+ клиентов</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-4" style={{fontFamily: 'Montserrat, sans-serif'}}></h3>
             <p className="text-gray-600">Нам доверяют миллионы людей по всей России</p>
           </div>
           
